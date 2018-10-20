@@ -18,17 +18,17 @@ namespace ClsWrkInheritance
 
             SecondDerivedClass secondDerived = new SecondDerivedClass(23, 45, 56, 78);
 
-            //BaseClass baseClass = new BaseClass(23, 45);
-            //baseClass.Method();
+             BaseClass baseClass = new BaseClass(23, 45);
+             baseClass.Method();
 
-            //DerivedClass derivedClass = new DerivedClass(23, 45, 67);
-            //derivedClass.Method();
+             DerivedClass derivedClass1 = new DerivedClass(23, 45, 67);
+             derivedClass.Method();
 
-            //ThirdDerivedClass thirdDerivedClass = new ThirdDerivedClass(23, 45);
-            //thirdDerivedClass.Method();
+             ThirdDerivedClass thirdDerivedClass = new ThirdDerivedClass(23, 45);
+              thirdDerivedClass.Method();
 
-            //BaseClass baseClasObjRefrence = new DerivedClass(23, 45, 67);
-            //baseClasObjRefrence.Method();
+              BaseClass baseClasObjRefrence = new DerivedClass(23, 45, 67);
+              baseClasObjRefrence.Method();
 
             BaseClass baseClasObjRefrence1 = new ThirdDerivedClass(23, 45);
             baseClasObjRefrence1.Method();
